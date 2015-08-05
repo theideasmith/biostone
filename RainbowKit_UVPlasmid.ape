@@ -1,0 +1,44 @@
+LOCUS       RainbowKit_UVPla         426 bp ds-DNA     circular     29-JUL-2015
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    1..52
+                     /label=SulA Promoter
+                     /ApEinfo_fwdcolor=#fa9c26
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    53..64
+                     /label=RBS
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    65..417
+                     /label=LacZ Alpha Reporter
+                     /ApEinfo_fwdcolor=#f9fa20
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    418..426
+                     /label=Terminator
+                     /ApEinfo_fwdcolor=#faa6f5
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+ORIGIN
+        1 gggttgatct ttgttgtcac tggatgtact gtacatccat acagtaactc acaaagagga
+       61 gaaaatgacc atgattacgc caagcgcgca attaaccctc actaaaggga acaaaagctg
+      121 gagctccacc gcggtggcgg cagcactaga gctagtggat cccccgggct gtagaaattc
+      181 gatatcaagc ttatcgatac cgtcgacctc gagggggggc ccggtaccca attcgcccta
+      241 tagtgagtcg tattacgcgc gctcactggc cgtcgtttta caacgtcgtg actgggaaaa
+      301 ccctggcgtt acccaactta atcgccttgc agcacatccc cctttcgcca gctggcgtaa
+      361 tagcgaagag gcccgcaccg atcgcccttc ccaacagttg cgcagcctga ataataacaa
+      421 aaataa     
+//

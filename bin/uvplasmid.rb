@@ -1,4 +1,4 @@
-require './biostone'
+require '../biostone'
 
 MELANIN = biobrick({
 	src: "BBa_K274001",

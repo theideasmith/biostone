@@ -155,6 +155,10 @@ module BioS
             end
         end
 
+        def stringify
+            self.scan(/.{3}/).join("")
+        end
+
     end
 
     class RNA < NA
@@ -193,9 +197,9 @@ module BioS
 
     class DNA < NA
         def self.from_file file
-            DNA.new (File.read seq).gsub("\n", '') if File.exist? seq
+            DNA.new (File.read file).gsub("\n", '') if File.exist? file
         end
-        
+
         def initialize(str)
             super str
             self.downcase!

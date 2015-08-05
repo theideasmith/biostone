@@ -225,7 +225,7 @@ module BioS
         attr_accessor :data
 
         def initialize(data)
-            data[:sequence] = Sequence::DNA.new load_sequence(data[:sequence])
+            data[:sequence] = DNA.new load_sequence(data[:sequence])
             @data = data
         end
 
@@ -258,7 +258,7 @@ module BioS
             each do |seq|
                 res += seq.sequence
             end
-            Sequence::DNA.new res
+            DNA.new res
         end
 
         def value

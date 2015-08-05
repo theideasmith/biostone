@@ -1,6 +1,6 @@
 require './pp'
 
-module BioLib
+module BioS
 
     module Sequence
 
@@ -257,9 +257,9 @@ end
 
 
 def biobrick(brick)
-    BioLib::BioBrick.new(brick)
+    BioS::BioBrick.new(brick)
 end
 
 def plasmid(brick)
-    BioLib::Plasmid.new(brick)
+    BioS::Plasmid.new(brick)
 end

@@ -58,10 +58,10 @@ PRIMER_LEN = 20
 PLASMID_STRING = PLASMID.sequence
 PRIMER_OVERHANG_5_3 = "ag" + "ggtctca" + "gatg"
 PRIMER_OVERHANG_3_5 = "tc" + "actctgg" + "gccg"
-PRIMER_FWD = BioS::Sequence::DNA.new(
+PRIMER_FWD = BioS::DNA.new(
 	PRIMER_OVERHANG_5_3 + PLASMID_STRING[ 0,PRIMER_LEN ]
 	)
-PRIMER_RVS = BioS::Sequence::DNA.new(
+PRIMER_RVS = BioS::DNA.new(
 	(PLASMID_STRING[ -PRIMER_LEN, PRIMER_LEN ].complement +
 			  PRIMER_OVERHANG_3_5).reverse
 	)

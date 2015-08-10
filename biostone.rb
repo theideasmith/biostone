@@ -156,7 +156,7 @@ module BioS
         end
 
         def stringify
-            self.scan(/.{3}/).join("")
+            self.upcase.scan(/.{3}|.+/).join(" ")
         end
 
     end
